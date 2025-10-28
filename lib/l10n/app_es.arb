@@ -1,0 +1,22 @@
+{
+    "@@locale": "es",
+    "header_welcome": "¡Bienvenido!",
+    "label_ui_locale": "Región (país) actual",
+    "label_ui_language": "Idioma de la interfaz",
+    "tooltip_settings": "Opciones",
+    "header_settings": "Opciones",
+    "dropdown_ui_locale": "Región (país) de la UI",
+    "text_choose_language": "Elije un idioma",
+    "msgFailedToFetchLocales": "Error al obtener idiomas: {error}",
+    "msgFailedToLoadLocale": "Error al cargar idioma: {error}",
+    "msgFailedToUpdateLocale": "Error al actualizar idioma (país)",
+    "msgCurrentUiLocale": "Idioma (país) actual: {locale}",
+    "msgLocaleUpdated": "Idioma (país) actualizada",
+    "msgErrorUpdatingLocale": "Error al actualizar idioma (país): {error}",
+    "snapshotUnknown": "desconocido",
+    "msgErrorFetchUserLocale": "No se pudo obtener el idioma (país) de usuario: {status} {body}",
+    "msgErrorFallbackLocale": "No se pudo detectar idioma (páis) alternativa del sistema: {error}",
+    "msgErrorUpdateLocale": "No se pudo actualizar el idioma (país): {status}",
+    "msgErrorFetchUserSettings": "No se pudo obtener las opciones del usuario",
+    "msgErrorInitLocale": "No se pudo iniciar idioma (país) desde el sistema operario: {error}"
+}

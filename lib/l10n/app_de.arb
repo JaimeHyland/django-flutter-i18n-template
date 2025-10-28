@@ -1,0 +1,22 @@
+{
+    "@@locale": "de",
+    "header_welcome": "Willkommen!",
+    "label_ui_locale": "Aktuelle Sprache",
+    "label_ui_language": "UI Sprache",
+    "tooltip_settings": "Einstellungen",
+    "header_settings": "Einstellungen",
+    "dropdown_ui_locale": "Sprache der App",
+    "text_choose_language": "Sprache wählen",
+    "msgFailedToFetchLocales": "Fehler beim abrufen der Sprache: {error}",
+    "msgFailedToLoadLocale": "Fehler beim laden der Sprache : {error}",
+    "msgFailedToUpdateLocale": "Fehler beim wechseln der Sprache",
+    "msgCurrentUiLocale": "Sprache aktuell: {locale}",
+    "msgLocaleUpdated": "Sprache erfolgreich gewechselt",
+    "msgErrorUpdatingLocale": "Fehler beim wechseln der Sprache: {error}",
+    "snapshotUnknown": "unbekannt",
+    "msgErrorFetchUserLocale": "Benutzersprache konnte nicht abgerufen werden: {status} {body}",
+    "msgErrorFallbackLocale": "Betriebssystem-Ausweichsprache konnte nicht ermittelt werden: {error}",
+    "msgErrorUpdateLocale": "Sprache konnte nicht aktualisiert werden: {status}",
+    "msgErrorFetchUserSettings": "Benutzereinstellungen konnten nicht abgerufen werden",
+    "msgErrorInitLocale": "Sprache konnte nicht vom Betriebssystem initialisiert werden: {error}"
+}

@@ -1,0 +1,39 @@
+name: i18n_flutter_django_template
+description: "A template to start off internationalisable projects with flutter at the front end and django at the back. Includes default supported languages and locales and basic authentication.  Minimalist welcome screen and settings screen where UI language can be reset. Defaults to language of UI then English."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  flutter_dotenv: ^5.1.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  generate: true
+  assets:
+    - assets/config/.env
+
+  uses-material-design: true
+
+gen-l10n:
+  arb-dir: lib/l10n
+  template-arb-file: app_en.arb
+  output-localization-file: app_localizations.dart
+  output-class: AppLocalizations
