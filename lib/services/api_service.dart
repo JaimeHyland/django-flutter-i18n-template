@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 
 
 class ApiService {
-  static final String baseUrl = dotenv.env['API_BASE_URL'] ?? '';
+  static String baseUrl = dotenv.env['API_BASE_URL'] ?? '';
   static final String authToken = dotenv.env['API_AUTH_TOKEN'] ?? '';
 
   /// Get list of supported locales
